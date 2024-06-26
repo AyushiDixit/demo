@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="">
+<head>
+    <title>Welcome</title>
+</head>
+<body>
+<h1>Welcome, <span th:text="${name}">Name</span></h1>
+<p>Your username: <span th:text="${username}">Username</span></p>
+<p>Your roles: <span th:text="${roles}">Roles</span></p>
+
+<!-- Example for checking if user is a manager -->
+<div th:if="${roles.contains('ROLE_MANAGER')}">
+    <a th:href="@{/manager/restricted}">Restricted Page</a>
+</div>
+
+<a th:href="@{/logout}">Logout</a>
+</body>
+</html>
