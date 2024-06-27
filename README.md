@@ -1,6 +1,8 @@
-Done using Java, Springboot, thymeleaf and H2 database. (Could not do any css for not much time today) 
+Done using Java, Springboot, thymeleaf and H2 database. (no css implemented yet.) 
 Bonus question not attempted. 
-The login credentials are :
-username - user / manager
 
+run the datainitializer file. 
+
+The login credentials are :
+username - user OR manager
 password - password 
