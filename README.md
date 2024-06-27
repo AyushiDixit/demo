@@ -4,5 +4,5 @@ Bonus question not attempted.
 run the datainitializer file. 
 
 The login credentials are :
-username - user OR manager
-password - password 
+username - **user** OR **manager**
+password - **password**
